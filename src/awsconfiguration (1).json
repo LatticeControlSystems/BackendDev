@@ -1,0 +1,35 @@
+﻿{
+    "UserAgent": "aws-amplify-cli/0.1.0",
+    "Version": "1.0",
+    "IdentityManager": {
+        "Default": {}
+    },
+    "AppSync": {
+        "Default": {
+        "ApiUrl": "https://vgabmikbsfbg5avt6d77y3odlu.appsync-api.us-west-2.amazonaws.com/graphql",
+        "Region": "us-west-2",
+        "AuthMode": "AWS_IAM",
+        "ApiKey": "null"
+        }
+    }
+}
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "appsync:GraphQL"
+            ],
+            "Resource": [
+                "arn:aws:appsync:us-west-2:799885460593:apis/j74sdr5cyfhszpqg3afoaqniba/types/Mutation/fields/createEvent",
+                "arn:aws:appsync:us-west-2:799885460593:apis/j74sdr5cyfhszpqg3afoaqniba/types/Mutation/fields/commentOnEvent",
+                "arn:aws:appsync:us-west-2:799885460593:apis/j74sdr5cyfhszpqg3afoaqniba/types/Query/fields/getEvent",
+                "arn:aws:appsync:us-west-2:799885460593:apis/j74sdr5cyfhszpqg3afoaqniba/types/Query/fields/listEvents",
+                "arn:aws:appsync:us-west-2:799885460593:apis/j74sdr5cyfhszpqg3afoaqniba/types/Subscription/fields/subscribeToEventComments"
+                "j74sdr5cyfhszpqg3afoaqniba"
+            ]
+        }
+    ]
+}
+<Col xs={6} sm={6} md={6} lg={6} xl={6} style={{padding: '0px', backgroundColor: '#333333', height:'50vh'}}>
